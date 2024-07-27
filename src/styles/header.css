@@ -1,0 +1,63 @@
+/* src/components/Header.css */
+
+header {
+  background-color: #fff;
+  color: #222;
+  align-items: center;
+  padding: 4px;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  margin-right: 2rem;
+  justify-content: end;
+  display: flex;
+}
+
+.logoname {
+  color: #222;
+  text-decoration: none;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+.link {
+  margin-left: 3rem;
+  justify-content: end;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0.5rem 0rem 0.5rem 2.5rem;
+}
+
+.Logo {
+  width: 35px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.XLogo {
+  width: 30px;
+  height: auto;
+  justify-content: end;
+  padding: 0.5rem 1rem 0.5rem 0rem;
+}
+
+.SNSLogo {
+  width: 35px;
+  height: auto;
+  justify-content: end;
+  padding: 0.5rem 1rem 0.5rem 0rem;
+}
