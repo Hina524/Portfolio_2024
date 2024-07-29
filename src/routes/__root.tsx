@@ -45,17 +45,17 @@ function RootComponent() {
 
         <div className="nav">
           <Link
-            className='link'
+            className='links'
             to={'/about'}
             activeProps={{
               className: 'font-bold',
             }}
           >
-            About
+            About me
           </Link>{' '}
 
           <Link
-            className='link'
+            className='links'
             to={'/blog'}
             activeProps={{
               className: 'font-bold',
@@ -64,7 +64,7 @@ function RootComponent() {
             Blog
           </Link>{' '}
           <Link
-            className='link'
+            className='links'
             to={'/works'}
             activeProps={{
               className: 'font-bold',

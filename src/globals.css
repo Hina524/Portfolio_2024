@@ -56,8 +56,13 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.pages {
+  padding: 0px 25px;
+  color: #1f1f1f;
+}
+
 .title {
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 1.5;
   color: #1f1f1f;
 }
@@ -68,11 +73,10 @@ p {
   color: #1f1f1f;
 }
 
-.p-2 {
+.space{
   width: 100%;
   align-items: center;
   background-color: rgb(255, 255, 255);
   margin: 0 auto;
   max-width: 50rem;
-  padding: 4px;
 }

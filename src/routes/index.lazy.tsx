@@ -7,7 +7,7 @@ export const Route = createFileRoute('/')({
 
 function HomeComponent() {
   return (
-    <div className="p-2">
+    <div className="space">
       <h1>hina</h1>
     </div>
   )
